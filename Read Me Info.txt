@@ -1,0 +1,29 @@
+====================================
+ | 	     Information	   |
+====================================
+How to add application in IIS 8 on Windows server 2012
+
+These files are the part of the video tutorial which you can see on YouTube Channel:Petercrys
+
+In this tutorial you will learn how to add one or more applications in a same website for instance let say you have one website which has a domain name app.petercrys.com now you got three more websites or web applications and you want to use same domain name for all three web applications but that can't be done. what you can do is you take domain name and add the / application name so it will look something like this app.petercrys.com/ApplicationName 
+
+So in this video tutorial we are going to do the following :-       
+
+First:	Add three web application to an existing website app.petercrys.com  
+
+a. http://app.petercrys.com/accounts 
+b. http://app.petercrys.com/hr
+c. http://app.petercrys.com/sales
+
+Second: configure the separate application pool for each of three web applications so that if one of the application goes down it will not affect other web applications.
+
+Third: test all three web application on the server.  
+
+Forth: Solve the .Net Framework error from http://app.petercrys.com/hr web application.
+
+Fifth : Access and test all the three web applications from the client system.
+
+====================================
+Video Tutorial By: Sachin Samy on YouTube: http://www.youtube.com/petercrys
+For more info Visit http://tech.petercrys.com
+IM: Skype: sachin.samy
